@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/f0f0a9feb5.js" crossorigin="anonymous"></script>
+    <title>Caixa eletrônico</title>
+</head>
+<body>
+    <div id='container-box'>
+        <div>
+            <label id="titulo" for="">Quanto você deseja sacar?</label>
+        </div>
+            <div>
+                <input id="saque" type='number'>
+            </div>
+            <div>
+                <button type="submit" onclick="sacar()" id="btn">Sacar</button>
+            </div>
+        <div id="notas">
+            <div class="nota-valor" id="nota1">
+                <label style="color: #6ae682;" for="">1 real</label>
+                <img src="imgs/nota1.png" alt="nota de 1 real">
+                <label id="qtd-1" style="color: #6ae682;" for=""></label>
+            </div>
+            <div class="nota-valor">
+                <label style="color: #bf678d;" for="">5 reais</label>
+                <img src="imgs/nota5.png" alt="nota de 5 reais">
+                <label id="qtd-5" style="color: #bf678d;" for=""></label>
+            </div>
+            <div class="nota-valor">
+                <label style="color: #e61c74;" for="">10 reais</label>
+                <img src="imgs/nota10.png" alt="nota de 10 reais">
+                <label id="qtd-10" style="color: #e61c74;" for=""></label>
+            </div>
+            <div class="nota-valor">
+                <label style="color: #9e6906;" for="">50 reais</label>
+                <img src="imgs/nota50.png" alt="nota de 50 reais">
+                <label id="qtd-50" style="color: #9e6906;" for=""></label>
+            </div>
+            <div class="nota-valor">
+                <label style="color: #1fb4c2;" for="">100 reais</label>
+                <img src="imgs/nota100.png" alt="nota de 100 reais">
+                <label id="qtd-100" style="color: #1fb4c2;" for=""></label>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+</body>
+<script src="desafio.js"></script>
+</html>
