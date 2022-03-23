@@ -80,3 +80,11 @@ const sacar = () => {
     saque.value = ''
 
 }
+
+const limpar = ()=>{
+    qtdNotas1.innerText =   ''
+    qtdNotas5.innerText =   ''
+    qtdNotas10.innerText =  ''
+    qtdNotas50.innerText =  ''
+    qtdNotas100.innerText = ''
+}
