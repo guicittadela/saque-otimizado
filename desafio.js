@@ -75,5 +75,8 @@ const sacar = () => {
     qtdNotas10.innerText =  `${nota10} nota(s) de 10 reais`
     qtdNotas50.innerText =  `${nota50} nota(s) de 50 reais`
     qtdNotas100.innerText = `${nota100} nota(s) de 100 reais`
+    
+    nota1,nota5,nota10,nota50,nota100 = 0
+    saque.value = ''
 
 }
