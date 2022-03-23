@@ -1,4 +1,4 @@
-#link para visualização: https://guicittadela.github.io/saque-otimizado/
+# link para visualização: https://guicittadela.github.io/saque-otimizado/
 
 Programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico. Os requisitos básicos são os seguintes:
 •	Entregar o menor número de notas;
