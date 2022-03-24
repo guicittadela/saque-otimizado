@@ -32,8 +32,6 @@ const valorMaior10 = (valor) =>{
 }
 
 const valorMaior5 = (valor) =>{
-
-    console.log(valor,'dentro da função')
     if (valor>=5){
         valor = valor - 5
         nota5 = 1 
@@ -45,7 +43,6 @@ const valorMaior5 = (valor) =>{
 const sacar = () => {
     let saque =  document.getElementById('saque')
     let numSaque = parseInt(saque.value)
-    console.log(typeof(numSaque), 'cliquei')
     while (numSaque>0){
 
         if (numSaque>=100){
@@ -77,11 +74,12 @@ const sacar = () => {
     qtdNotas100.innerText = `${nota100} nota(s) de 100 reais`
     
     nota1,nota5,nota10,nota50,nota100 = 0
-    saque.value = ''
+    
 
 }
 
 const limpar = ()=>{
+    saque.value = ''
     qtdNotas1.innerText =   ''
     qtdNotas5.innerText =   ''
     qtdNotas10.innerText =  ''
